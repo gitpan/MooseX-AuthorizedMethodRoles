@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Syntax sugar for authorized methods by MooseX::Role",
+  "ABSTRACT" => "Syntax sugar for authorized methods by MooseX::Role ",
   "AUTHOR" => "John Scoles <byterock\@h...mail.come>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "Test::Moose::More" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.00.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

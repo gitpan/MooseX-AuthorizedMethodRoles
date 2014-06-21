@@ -1,5 +1,5 @@
 ---
-abstract: 'Syntax sugar for authorized methods by MooseX::Role'
+abstract: 'Syntax sugar for authorized methods by MooseX::Role '
 author:
   - 'John Scoles <byterock@h...mail.come>'
 build_requires:
@@ -25,4 +25,4 @@ requires:
   Sub::Name: 0
   strict: 0
   warnings: 0
-version: 0.001
+version: 0.00.02
