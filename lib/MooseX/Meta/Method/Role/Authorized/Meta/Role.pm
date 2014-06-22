@@ -1,4 +1,5 @@
 package MooseX::Meta::Method::Role::Authorized::Meta::Role;
+$MooseX::Meta::Method::Role::Authorized::Meta::Role::VERSION = '0.00.03';
 use Moose::Role;
 use Moose::Util::MetaRole;
 use Moose::Exporter;

@@ -1,12 +1,15 @@
 ---
-abstract: 'Syntax sugar for authorized methods by MooseX::Role '
+abstract: 'Syntax sugar for authorized methods by MooseX::Role'
 author:
-  - 'John Scoles <byterock@h...mail.come>'
+  - 'John Scoles <byterock@hotmail.com>'
 build_requires:
   Moose::Util: 0
   Test::Moose::More: 0
   Test::More: 0
   perl: 5.010
+  test_role1: 0
+  test_role2: 0
+  test_role3: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -25,4 +28,4 @@ requires:
   Sub::Name: 0
   strict: 0
   warnings: 0
-version: 0.00.02
+version: 0.00.03

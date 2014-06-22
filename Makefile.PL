@@ -10,8 +10,8 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Syntax sugar for authorized methods by MooseX::Role ",
-  "AUTHOR" => "John Scoles <byterock\@h...mail.come>",
+  "ABSTRACT" => "Syntax sugar for authorized methods by MooseX::Role",
+  "AUTHOR" => "John Scoles <byterock\@hotmail.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -32,9 +32,12 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Moose::Util" => 0,
     "Test::Moose::More" => 0,
-    "Test::More" => 0
+    "Test::More" => 0,
+    "test_role1" => 0,
+    "test_role2" => 0,
+    "test_role3" => 0
   },
-  "VERSION" => "0.00.02",
+  "VERSION" => "0.00.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -52,6 +55,9 @@ my %FallbackPrereqs = (
   "Test::Moose::More" => 0,
   "Test::More" => 0,
   "strict" => 0,
+  "test_role1" => 0,
+  "test_role2" => 0,
+  "test_role3" => 0,
   "warnings" => 0
 );
 
