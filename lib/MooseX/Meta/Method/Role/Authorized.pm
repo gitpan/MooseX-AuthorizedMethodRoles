@@ -1,5 +1,5 @@
 package MooseX::Meta::Method::Role::Authorized;
-$MooseX::Meta::Method::Role::Authorized::VERSION = '0.00.03';
+$MooseX::Meta::Method::Role::Authorized::VERSION = '0.00.04';
 use warnings;
 use strict;
 use  MooseX::Meta::Method::Role::Authorized::Meta::Role;

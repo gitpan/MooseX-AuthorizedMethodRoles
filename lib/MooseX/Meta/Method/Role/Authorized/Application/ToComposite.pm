@@ -1,5 +1,5 @@
 package MooseX::Meta::Method::Role::Authorized::Application::ToComposite;
-$MooseX::Meta::Method::Role::Authorized::Application::ToComposite::VERSION = '0.00.03';
+$MooseX::Meta::Method::Role::Authorized::Application::ToComposite::VERSION = '0.00.04';
 use Moose::Role;
 
 after apply => sub {

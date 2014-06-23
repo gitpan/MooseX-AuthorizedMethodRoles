@@ -1,5 +1,5 @@
 package MooseX::AuthorizedMethodRoles;
-$MooseX::AuthorizedMethodRoles::VERSION = '0.00.03';
+$MooseX::AuthorizedMethodRoles::VERSION = '0.00.04';
 use Moose ();
 use Moose::Exporter;
 use Sub::Name;

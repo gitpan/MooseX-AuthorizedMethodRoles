@@ -6,7 +6,7 @@ build_requires:
   Moose::Util: 0
   Test::Moose::More: 0
   Test::More: 0
-  perl: 5.010
+  perl: 5.014
   test_role1: 0
   test_role2: 0
   test_role3: 0
@@ -19,6 +19,25 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: MooseX-AuthorizedMethodRoles
+provides:
+  MooseX::AuthorizedMethodRoles:
+    file: lib/MooseX/AuthorizedMethodRoles.pm
+    version: v0.0.4
+  MooseX::Meta::Method::Role::Authorized:
+    file: lib/MooseX/Meta/Method/Role/Authorized.pm
+    version: v0.0.4
+  MooseX::Meta::Method::Role::Authorized::Application::ToClass:
+    file: lib/MooseX/Meta/Method/Role/Authorized/Application/ToClass.pm
+    version: v0.0.4
+  MooseX::Meta::Method::Role::Authorized::Application::ToComposite:
+    file: lib/MooseX/Meta/Method/Role/Authorized/Application/ToComposite.pm
+    version: v0.0.4
+  MooseX::Meta::Method::Role::Authorized::Application::ToInstance:
+    file: lib/MooseX/Meta/Method/Role/Authorized/Application/ToInstance.pm
+    version: v0.0.4
+  MooseX::Meta::Method::Role::Authorized::Meta::Role:
+    file: lib/MooseX/Meta/Method/Role/Authorized/Meta/Role.pm
+    version: v0.0.4
 requires:
   Data::Dumper: 0
   Moose: 0
@@ -26,6 +45,7 @@ requires:
   Moose::Role: 0
   Moose::Util::MetaRole: 0
   Sub::Name: 0
+  perl: 5.014
   strict: 0
   warnings: 0
-version: 0.00.03
+version: 0.00.04

@@ -1,5 +1,5 @@
 package MooseX::Meta::Method::Role::Authorized::Application::ToClass;
-$MooseX::Meta::Method::Role::Authorized::Application::ToClass::VERSION = '0.00.03';
+$MooseX::Meta::Method::Role::Authorized::Application::ToClass::VERSION = '0.00.04';
 use Moose::Role;
 use Moose::Util::MetaRole;
 
