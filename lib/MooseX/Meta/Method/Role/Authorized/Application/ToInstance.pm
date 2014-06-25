@@ -1,5 +1,5 @@
 package MooseX::Meta::Method::Role::Authorized::Application::ToInstance;
-$MooseX::Meta::Method::Role::Authorized::Application::ToInstance::VERSION = '0.00.04';
+$MooseX::Meta::Method::Role::Authorized::Application::ToInstance::VERSION = '0.00.05';
 use Moose::Role;
 
 after apply => sub {
